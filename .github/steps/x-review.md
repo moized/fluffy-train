@@ -27,3 +27,20 @@ Check out these resources to learn more or get involved:
 - [Take another GitHub Skills exercise](https://learn.github.com/skills).
 - [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
 - To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+
+### Bring your VS Code projects to GitHub
+
+If you want to bring projects you worked on today or months ago in VS Code:
+
+1. Open the project folder in VS Code.
+2. In a terminal, run:
+   - `git init` (if the folder is not already a Git repository)
+   - `git add .`
+   - `git commit -m "Initial commit"`
+3. Create a new repository on GitHub.
+4. Connect and push your local project:
+   - `git remote add origin https://github.com/<your-username>/<repo-name>.git`
+   - `git branch -M main`
+   - `git push -u origin main`
+
+Repeat these steps for each older project folder you want to publish.
